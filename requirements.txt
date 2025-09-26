@@ -1,5 +1,10 @@
-streamlit
 tensorflow
+pandas
 numpy
-pickle-mixin
+scikit-learn
+tensorboard
+matplotlib
+streamlit
+keras
 nltk
+scikeras
