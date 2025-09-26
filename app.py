@@ -8,7 +8,8 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 # -------------------------------
 # Load model and tokenizer
 # -------------------------------
-model = tf.keras.models.load_model("next_word_lstm") # TensorFlow SavedModel folder
+
+model = tf.keras.models.load_model("next_word_lstm.h5")# TensorFlow SavedModel folder
 
 with open('tokenizer.pickle', 'rb') as handle:
     tokenizer = pickle.load(handle)
